@@ -44,6 +44,12 @@ To get started with the project, follow these steps:
 The system is designed to provide an intuitive and visually engaging interface that makes blockchain data more accessible. It includes:
 
 - **Directed Graph Visualization**: Using React Flow, a dynamic and interactive graph is displayed where nodes represent wallet addresses, and edges represent transactions. Users can click on nodes and edges to explore more detailed information about wallet interactions and transaction flows.
+  ![image](https://github.com/user-attachments/assets/eb075588-73c0-411b-9de0-6e236524fc20)
+
+  ![image](https://github.com/user-attachments/assets/d749f20b-a850-47bb-81e6-e3d52a6f876b)
+
+  ![image](https://github.com/user-attachments/assets/1da947df-db19-4a38-92dd-daf7ce4d0869)
+
   
 - **Transaction History**: A comprehensive table that lists transactions associated with a specific wallet. It supports filtering by transaction method (e.g., Transfer, Claim) and includes pagination for easier navigation.
 
