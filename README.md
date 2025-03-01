@@ -1,38 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blockchain Transaction Information Visualization System
 
-## Getting Started
-First, npm install next
-Then, run the development server:
+## Project Summary
+The Blockchain Transaction Information Visualization System is an interactive platform designed to simplify the analysis and exploration of blockchain transactions. It provides users with a graphical interface to visualize wallet interactions, transaction histories, and smart contract behaviors. By transforming complex blockchain data into an intuitive, accessible format, the platform helps users understand transaction patterns, network activities, and identify key players within the blockchain ecosystem.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Installation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+To get started with the project, follow these steps:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    ```bash
+    git clone https://github.com/yourusername/blockchain-transaction-visualization.git
+    cd blockchain-transaction-visualization
+    ```
 
-## Learn More
+2. Install the required dependencies:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    npm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Start the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    npm start
+    ```
 
-## Deploy on Vercel
+4. Open the application in your browser:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    Navigate to `http://localhost:3000` to see the app running.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Jbiz-demo
-# crypto
+## Features
+
+- **Interactive Blockchain Graphs**: Visualizes wallet addresses as nodes and transactions as edges. Users can interact with the graph to explore transaction paths and networks.
+- **Transaction History**: Displays a detailed transaction table with relevant information such as hash, method, block number, age, sender/receiver wallet addresses, and transaction fee.
+- **Wallet Overview**: Shows details like wallet balance, total sent/received amounts, and multichain portfolio values.
+- **Search Functionality**: Users can input a wallet address to retrieve detailed information about the wallet and its transaction history.
+- **Transaction Details**: Clicking on a transaction edge reveals detailed information such as transaction amount and addresses involved.
+- **Pagination & Filtering**: Users can filter and paginate through transaction data for easier exploration.
+
+## Project Results
+
+The system is designed to provide an intuitive and visually engaging interface that makes blockchain data more accessible. It includes:
+
+- **Directed Graph Visualization**: Using React Flow, a dynamic and interactive graph is displayed where nodes represent wallet addresses, and edges represent transactions. Users can click on nodes and edges to explore more detailed information about wallet interactions and transaction flows.
+  
+- **Transaction History**: A comprehensive table that lists transactions associated with a specific wallet. It supports filtering by transaction method (e.g., Transfer, Claim) and includes pagination for easier navigation.
+
+- **Responsive Design**: The platform is fully responsive, ensuring it works seamlessly across devices of various screen sizes, from desktops to mobile phones.
+
+- **Future Enhancements**: The platform is designed with scalability in mind, allowing for the addition of real-time blockchain data and advanced filtering options in the future.
+
+## Deployment on Vercel
+
+For more detailed information on deploying to the Vercel platform and to see how the web app works, please visit the following link: [https://www.youtube.com/watch?v=9AifhMKtUqw](https://www.youtube.com/watch?v=9AifhMKtUqw).
